@@ -1,0 +1,78 @@
+ERC report (2026-05-08T14:05:14, Encoding UTF8)
+Report includes: Warnings
+
+***** Sheet /
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(2850 mils, 4800 mils): Label '3V3'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(2850 mils, 5200 mils): Label 'IO2'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(2850 mils, 5700 mils): Label 'IO18'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(2850 mils, 5800 mils): Label 'IO19'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(2850 mils, 6100 mils): Label 'IO27'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(4600 mils, 5000 mils): Label 'IO3'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(4600 mils, 5100 mils): Label 'IO1'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(4600 mils, 5200 mils): Label 'IO0'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(2850 mils, 6400 mils): Label 'IO34'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(4600 mils, 5300 mils): Label 'IO4'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(2850 mils, 6500 mils): Label 'IO35'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(2850 mils, 6600 mils): Label 'IO36'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(2850 mils, 6700 mils): Label 'IO39'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5300 mils, 5200 mils): Label 'ADO'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(4600 mils, 5900 mils): Label 'IO23'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5300 mils, 5300 mils): Label 'CS'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5300 mils, 5400 mils): Label 'INT'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5300 mils, 5600 mils): Label 'PS1'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5300 mils, 5700 mils): Label 'PS0'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5300 mils, 6750 mils): Label 'R2'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5300 mils, 6850 mils): Label 'T2'
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(5300 mils, 6950 mils): Label 'P'
+
+ ** ERC messages: 22  Errors 0  Warnings 22
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters
