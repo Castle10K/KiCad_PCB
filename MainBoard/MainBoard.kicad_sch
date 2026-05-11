@@ -4284,7 +4284,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 107.95) (xy 190.5 107.95)
+			(xy 195.58 113.03) (xy 190.5 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4324,7 +4324,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 110.49) (xy 170.18 110.49)
+			(xy 165.1 115.57) (xy 170.18 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4504,7 +4504,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 105.41) (xy 170.18 105.41)
+			(xy 165.1 110.49) (xy 170.18 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4614,7 +4614,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 110.49) (xy 190.5 110.49)
+			(xy 195.58 115.57) (xy 190.5 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4654,7 +4654,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 113.03) (xy 190.5 113.03)
+			(xy 195.58 118.11) (xy 190.5 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4704,7 +4704,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 113.03) (xy 170.18 113.03)
+			(xy 165.1 118.11) (xy 170.18 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4764,7 +4764,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 107.95) (xy 170.18 107.95)
+			(xy 165.1 113.03) (xy 170.18 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4874,7 +4874,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 105.41) (xy 190.5 105.41)
+			(xy 195.58 110.49) (xy 190.5 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5566,7 +5566,7 @@
 		(uuid "2b1efc1c-81e7-49e0-8082-aad58258faf1")
 	)
 	(label "VCC"
-		(at 195.58 107.95 180)
+		(at 195.58 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5858,7 +5858,7 @@
 		(uuid "5d8f17fe-0a74-4add-964f-9cce7e4fa7e2")
 	)
 	(label "VBAT_F"
-		(at 165.1 107.95 0)
+		(at 165.1 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6198,7 +6198,7 @@
 		(uuid "a33820d8-31bd-4f1a-8e64-4d2824645190")
 	)
 	(label "GND"
-		(at 165.1 110.49 0)
+		(at 165.1 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6248,7 +6248,7 @@
 		(uuid "ad5b5151-d324-4966-ac91-e06d2880147c")
 	)
 	(label "VBAT_F"
-		(at 165.1 105.41 0)
+		(at 165.1 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6378,7 +6378,7 @@
 		(uuid "d7f59fe8-d3e4-4d24-84de-d11fc07cc6f1")
 	)
 	(label "GND"
-		(at 165.1 113.03 0)
+		(at 165.1 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6388,7 +6388,7 @@
 		(uuid "d7fe100e-8cf4-4e0e-a63b-ca21a5aa655c")
 	)
 	(label "GND"
-		(at 195.58 113.03 180)
+		(at 195.58 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6488,7 +6488,7 @@
 		(uuid "e5eccba5-bc68-4634-a706-9fe5b245fe25")
 	)
 	(label "VCC"
-		(at 195.58 105.41 180)
+		(at 195.58 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6548,7 +6548,7 @@
 		(uuid "f05b028b-9049-42eb-b12d-f239dc86f269")
 	)
 	(label "GND"
-		(at 195.58 110.49 180)
+		(at 195.58 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9644,7 +9644,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 175.26 107.95 0)
+		(at 175.26 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9654,7 +9654,7 @@
 		(dnp no)
 		(uuid "ddc57908-98b2-4240-8655-be0b9839f091")
 		(property "Reference" "MINI360_IN"
-			(at 165.1 98.044 0)
+			(at 165.1 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9665,7 +9665,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 165.1 100.584 0)
+			(at 165.1 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9676,7 +9676,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 175.26 107.95 0)
+			(at 175.26 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9687,7 +9687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 107.95 0)
+			(at 175.26 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9698,7 +9698,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 175.26 107.95 0)
+			(at 175.26 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10397,7 +10397,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 185.42 110.49 180)
+		(at 185.42 115.57 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10407,7 +10407,7 @@
 		(dnp no)
 		(uuid "f8cd390f-6b84-4634-9b3e-5a67f5e6a70b")
 		(property "Reference" "MINI360_IN1"
-			(at 195.58 100.584 0)
+			(at 195.58 105.664 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10418,7 +10418,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 195.58 98.044 0)
+			(at 195.58 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10429,7 +10429,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
-			(at 185.42 110.49 0)
+			(at 185.42 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10440,7 +10440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 110.49 0)
+			(at 185.42 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10451,7 +10451,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 185.42 110.49 0)
+			(at 185.42 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
