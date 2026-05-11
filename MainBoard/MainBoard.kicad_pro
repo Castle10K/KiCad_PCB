@@ -632,7 +632,7 @@
         "uuid": "d693b708-0600-46f7-a2f9-ef4a5ddd8275"
       }
     ],
-    "used_designators": "D1,#PWR2,#PWR4-13,#FLG2,R3,DRV_R_OUT1,J5,J11-14,F1,C1-6,SW1,BAT_IN1,DRV_L1,DRV_L_OUT1,DRV_R1,FUSE1,J11\\-L\\-FRONT1,J12\\-L\\-REAR1,J13\\-R\\-FRONT1,J14\\-R\\-REAR1",
+    "used_designators": "J5-6,MINI360_IN1",
     "variants": []
   },
   "sheets": [
