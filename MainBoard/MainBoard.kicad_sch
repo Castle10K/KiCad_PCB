@@ -6037,7 +6037,7 @@
 		)
 		(uuid "68532c5a-1ae0-4485-96c9-8d595419c40e")
 	)
-	(label "IO16"
+	(label "IO36"
 		(at 134.62 166.37 0)
 		(effects
 			(font
@@ -6687,7 +6687,7 @@
 		)
 		(uuid "f607bdec-b5a2-42b2-a820-93c84ff85bd4")
 	)
-	(label "IO17"
+	(label "T1"
 		(at 134.62 168.91 0)
 		(effects
 			(font
