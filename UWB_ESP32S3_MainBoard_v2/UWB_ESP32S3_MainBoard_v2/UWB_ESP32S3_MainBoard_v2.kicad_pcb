@@ -90,7 +90,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "0086dfac-8eea-42cc-8500-b1dc3247bb97")
-		(at 153.815 88.605)
+		(at -79.23 -9.32)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
@@ -199,7 +199,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "01d152fb-4c2f-4ead-b4ca-3faedcf03eb8")
-		(at 167.075 102.255)
+		(at -65.97 4.33)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C8"
@@ -357,9 +357,9 @@
 	(footprint "10000_custom_Library:KF301_2P_5.00mm"
 		(layer "F.Cu")
 		(uuid "06b8a7f9-9ea8-47d6-99c5-efe474a91330")
-		(at 139.18 123.48)
+		(at -38.5 -38 90)
 		(property "Reference" "J14"
-			(at 0 -5.525225 0)
+			(at 0 -5.525225 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "82e25543-8d09-4b09-808a-233a0ee361f4")
@@ -371,7 +371,7 @@
 			)
 		)
 		(property "Value" "VBAT"
-			(at 0 4.547936 0)
+			(at 0 4.547936 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "e8ce0c4d-df5e-4bb1-a14a-ada43e7f154a")
@@ -383,7 +383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -396,7 +396,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -486,7 +486,7 @@
 			(uuid "7f7fb981-5a1e-4907-999a-defbe3ffed91")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 6.047936 0)
+			(at 0 6.047936 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "83de1e00-3e68-48b5-8b73-8129976f1174")
@@ -502,10 +502,10 @@
 			(layer "F.Fab")
 			(uuid "6d3299f4-ba44-4ac7-95a1-7c13d61e092f")
 			(pts
-				(xy 136.68 123.48) (xy 136.68 118.98)
+				(xy -38.5 -35.5) (xy -43 -35.5)
 			)
-			(height -4.5)
-			(orientation 1)
+			(height 4.5)
+			(orientation 0)
 			(format
 				(prefix "")
 				(suffix "")
@@ -524,7 +524,7 @@
 				(keep_text_aligned yes)
 			)
 			(gr_text "4.5"
-				(at 131.03 121.23 90)
+				(at -40.75 -32.15 0)
 				(layer "F.Fab")
 				(uuid "6d3299f4-ba44-4ac7-95a1-7c13d61e092f")
 				(effects
@@ -536,7 +536,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at -2.5 0)
+			(at -2.5 0 90)
 			(size 2.6 2.6)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -547,7 +547,7 @@
 			(uuid "f8354355-570e-40be-ab89-66133139d6b1")
 		)
 		(pad "2" thru_hole circle
-			(at 2.5 0)
+			(at 2.5 0 90)
 			(size 2.6 2.6)
 			(drill 1.3)
 			(layers "*.Cu" "*.Mask")
@@ -562,7 +562,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1379e1f0-1df0-4b15-a5e3-e97a5d78715a")
-		(at 126.545 76.725)
+		(at -106.5 -21.2)
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J4"
@@ -577,7 +577,7 @@
 			)
 		)
 		(property "Value" "DRV8833_L_OUT"
-			(at 0 15.47 0)
+			(at -105.955 -87.785 0)
 			(layer "F.Fab")
 			(uuid "44d37122-3632-4eb9-8d29-11608ffc2e0a")
 			(effects
@@ -876,7 +876,7 @@
 	(footprint "Diode_SMD:D_SMA_Handsoldering"
 		(layer "F.Cu")
 		(uuid "18a16199-7ef4-47b0-a5e9-762cd6353b2d")
-		(at 160.56 126.495)
+		(at -27.5 -35 180)
 		(descr "Diode SMA (DO-214AC) Handsoldering")
 		(tags "Diode SMA (DO-214AC) Handsoldering")
 		(property "Reference" "D1"
@@ -902,7 +902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -915,7 +915,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -940,14 +940,14 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -4.51 -1.65)
-			(end -4.51 1.65)
+			(start -4.51 1.65)
+			(end 2.5 1.65)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "79e5e141-e95b-4f67-9711-3cd3ec44ad29")
+			(uuid "bf4d8016-2203-4649-a45e-a5a107629023")
 		)
 		(fp_line
 			(start -4.51 -1.65)
@@ -960,44 +960,14 @@
 			(uuid "4165cd36-158c-40da-8d75-cdc975c0631c")
 		)
 		(fp_line
-			(start -4.51 1.65)
-			(end 2.5 1.65)
+			(start -4.51 -1.65)
+			(end -4.51 1.65)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bf4d8016-2203-4649-a45e-a5a107629023")
-		)
-		(fp_line
-			(start -4.5 -1.75)
-			(end 4.5 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "0392c2fa-5c08-4d8d-85b0-ccee66c88098")
-		)
-		(fp_line
-			(start -4.5 1.75)
-			(end -4.5 -1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "a72a242c-b83b-45b5-b84c-d9ea3ab1f466")
-		)
-		(fp_line
-			(start 4.5 -1.75)
-			(end 4.5 1.75)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "04b80780-465d-4026-b597-bc009eb5a046")
+			(uuid "79e5e141-e95b-4f67-9711-3cd3ec44ad29")
 		)
 		(fp_line
 			(start 4.5 1.75)
@@ -1010,34 +980,94 @@
 			(uuid "84c02dee-9c93-40ab-bb79-3b0e430e39f4")
 		)
 		(fp_line
-			(start -2.3 1.5)
+			(start 4.5 -1.75)
+			(end 4.5 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "04b80780-465d-4026-b597-bc009eb5a046")
+		)
+		(fp_line
+			(start -4.5 1.75)
+			(end -4.5 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a72a242c-b83b-45b5-b84c-d9ea3ab1f466")
+		)
+		(fp_line
+			(start -4.5 -1.75)
+			(end 4.5 -1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0392c2fa-5c08-4d8d-85b0-ccee66c88098")
+		)
+		(fp_line
+			(start 2.3 1.5)
+			(end -2.3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "50481f2d-ae36-437f-be16-d8e71d3fa198")
+		)
+		(fp_line
+			(start 2.3 -1.5)
+			(end 2.3 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "32e8feb6-c6ec-4b22-aecd-4376c8517121")
+		)
+		(fp_line
+			(start 2.3 -1.5)
 			(end -2.3 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5d8ba6ae-800e-40fc-bcfb-772d6562baac")
+			(uuid "85b2ae8c-efa1-46ba-b5c5-9495f7e13bc0")
 		)
 		(fp_line
-			(start -0.64944 -0.79908)
-			(end -0.64944 0.80112)
+			(start 0.50118 0.75032)
+			(end 0.50118 -0.79908)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2ff9ff3b-750f-4791-8b68-4d9258fe2b04")
+			(uuid "4811331b-7924-4697-b397-eceb22fa2398")
+		)
+		(fp_line
+			(start 0.50118 0.00102)
+			(end 1.4994 0.00102)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bbabf9d1-7129-41b9-8106-b3a8289108c4")
 		)
 		(fp_line
 			(start -0.64944 0.00102)
-			(end -1.55114 0.00102)
+			(end 0.50118 0.75032)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "dca8c150-5b75-418b-be82-36e40a9d426f")
+			(uuid "fb510a9d-f207-4a5b-9a55-51c624dae433")
 		)
 		(fp_line
 			(start -0.64944 0.00102)
@@ -1051,63 +1081,33 @@
 		)
 		(fp_line
 			(start -0.64944 0.00102)
-			(end 0.50118 0.75032)
+			(end -1.55114 0.00102)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "fb510a9d-f207-4a5b-9a55-51c624dae433")
+			(uuid "dca8c150-5b75-418b-be82-36e40a9d426f")
 		)
 		(fp_line
-			(start 0.50118 0.00102)
-			(end 1.4994 0.00102)
+			(start -0.64944 -0.79908)
+			(end -0.64944 0.80112)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "bbabf9d1-7129-41b9-8106-b3a8289108c4")
+			(uuid "2ff9ff3b-750f-4791-8b68-4d9258fe2b04")
 		)
 		(fp_line
-			(start 0.50118 0.75032)
-			(end 0.50118 -0.79908)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4811331b-7924-4697-b397-eceb22fa2398")
-		)
-		(fp_line
-			(start 2.3 -1.5)
+			(start -2.3 1.5)
 			(end -2.3 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "85b2ae8c-efa1-46ba-b5c5-9495f7e13bc0")
-		)
-		(fp_line
-			(start 2.3 -1.5)
-			(end 2.3 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "32e8feb6-c6ec-4b22-aecd-4376c8517121")
-		)
-		(fp_line
-			(start 2.3 1.5)
-			(end -2.3 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "50481f2d-ae36-437f-be16-d8e71d3fa198")
+			(uuid "5d8ba6ae-800e-40fc-bcfb-772d6562baac")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.5 0)
@@ -1121,7 +1121,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -2.5 0)
+			(at -2.5 0 180)
 			(size 3.5 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1388888889)
@@ -1131,7 +1131,7 @@
 			(uuid "5514e381-1f80-42a5-a7e4-8b7e2e8b5000")
 		)
 		(pad "2" smd roundrect
-			(at 2.5 0)
+			(at 2.5 0 180)
 			(size 3.5 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1388888889)
@@ -1156,7 +1156,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "24feb953-204e-4ff0-87a4-b3b97b49395f")
-		(at 164.89 78.99)
+		(at -68.155 -18.935)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED handsolder")
 		(property "Reference" "D3"
@@ -1378,7 +1378,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "257be7b2-6cd2-4cd0-a2e3-8eb71f20b0b5")
-		(at 117.365 76.725)
+		(at -11.5 -25.98)
 		(descr "Through hole straight socket strip, 1x22, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x22 2.54mm single row")
 		(property "Reference" "J1"
@@ -1870,7 +1870,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "27ea66ba-6690-467c-a7be-c2b552a37945")
-		(at 135.725 76.725)
+		(at -97.32 -21.2)
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J6"
@@ -2184,7 +2184,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "2f1d534e-079e-4dba-b584-e352332c63ea")
-		(at 149.495 76.725)
+		(at -83.55 -21.2)
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J11"
@@ -2498,7 +2498,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3c82adda-7b34-4cea-bef4-b4dbaeccd50e")
-		(at 140.315 76.725)
+		(at -92.73 -21.2)
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J7"
@@ -2812,7 +2812,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3d5f9ad7-77be-4bc3-a26e-964a1fa06d94")
-		(at 162.375 94.015)
+		(at -70.67 -3.91)
 		(descr "Through hole straight socket strip, 1x07, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x07 2.54mm single row")
 		(property "Reference" "J8"
@@ -3137,7 +3137,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 		(layer "F.Cu")
 		(uuid "47346550-6939-4828-8d88-ba538ae4d260")
-		(at 158.204775 84.255)
+		(at -74.840225 -13.67)
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C7"
@@ -4499,7 +4499,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4985eb5e-3177-4452-b112-4483bfb3fea9")
-		(at 167.075 93.225)
+		(at -65.97 -4.7)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C2"
@@ -4657,7 +4657,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 		(layer "F.Cu")
 		(uuid "4b0312a5-76ef-4a22-a58c-17b6ec06c288")
-		(at 148.969698 96.495)
+		(at -84.075302 -1.43)
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=12mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm diameter 8mm height 12mm Electrolytic Capacitor")
 		(property "Reference" "C1"
@@ -6399,7 +6399,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "54230b22-5aab-4e23-baa3-d37e0ed6bf5b")
-		(at 167.075 105.265)
+		(at -65.97 7.34)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C9"
@@ -6557,7 +6557,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "689a612d-76cc-44c5-b238-f8721e83875f")
-		(at 131.135 76.725)
+		(at -101.91 -21.2)
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J5"
@@ -6871,7 +6871,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "6d77fda3-184c-470e-b043-b2b418165e78")
-		(at 164.89 82.03)
+		(at -68.155 -15.895)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED handsolder")
 		(property "Reference" "D4"
@@ -7093,7 +7093,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 		(layer "F.Cu")
 		(uuid "6e0ce1f1-ee10-49df-a231-0b62b1708a4a")
-		(at 148.969698 106.045)
+		(at -84.075302 8.12)
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=12mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm diameter 8mm height 12mm Electrolytic Capacitor")
 		(property "Reference" "C3"
@@ -8835,7 +8835,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 		(layer "F.Cu")
 		(uuid "6f2baaf3-daae-4a35-87dd-47ec7cbe1b83")
-		(at 148.969698 115.595)
+		(at -84.075302 17.67)
 		(descr "CP, Radial series, Radial, pin pitch=3.50mm, diameter=8mm, height=12mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 3.50mm diameter 8mm height 12mm Electrolytic Capacitor")
 		(property "Reference" "C11"
@@ -10577,7 +10577,7 @@
 	(footprint "10000_custom_Library:PTC_Radial_Disc_P5.08mm_Drill1.0mm"
 		(layer "F.Cu")
 		(uuid "7188ca90-096c-46aa-9b36-900bab0000c8")
-		(at 161.115 121.695)
+		(at -27.04 -41)
 		(property "Reference" "F1"
 			(at 0 -2.980699 0)
 			(unlocked yes)
@@ -10710,7 +10710,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "869e0507-f5ab-421a-a120-15b51435cd9a")
-		(at 131.135 120.525)
+		(at -101.91 22.6)
 		(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 2.54mm single row")
 		(property "Reference" "J13"
@@ -11002,7 +11002,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "8e4b49ae-ccef-4aff-86e7-2567b3c57456")
-		(at 153.815 84.555)
+		(at -79.23 -13.37)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
@@ -11111,7 +11111,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "90b1660d-a6bc-4f96-bb87-4d207c23c597")
-		(at 167.075 99.245)
+		(at -65.97 1.32)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
@@ -11269,7 +11269,7 @@
 	(footprint "10000_custom_Library:KF301_4P_5.00mm"
 		(layer "F.Cu")
 		(uuid "a29ad384-0f36-4807-85da-5447412e5d94")
-		(at 135 106.326)
+		(at -98.045 8.401)
 		(property "Reference" "J16"
 			(at 0 -5.525225 0)
 			(unlocked yes)
@@ -11458,7 +11458,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a755fe45-6033-466b-ba16-3e569487c234")
-		(at 164.89 75.95)
+		(at -68.155 -21.975)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "LED handsolder")
 		(property "Reference" "D2"
@@ -11680,7 +11680,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 		(layer "F.Cu")
 		(uuid "b52e8681-4169-42ff-9784-bd37b0d3104c")
-		(at 158.204775 77.705)
+		(at -74.840225 -20.22)
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm diameter 5mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C5"
@@ -13042,7 +13042,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b5374ca9-b82c-4280-b004-a4b94e6fcdfa")
-		(at 167.075 96.235)
+		(at -65.97 -1.69)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
@@ -13200,7 +13200,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b9a1d1b5-8664-43c7-bffa-004e1bbbe7f1")
-		(at 148.125 121.845)
+		(at -84.92 23.92)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
@@ -13358,7 +13358,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "c6ac0b4b-d726-442f-926c-5cd258eb50a2")
-		(at 148.125 127.745)
+		(at -84.92 29.82)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
@@ -13516,7 +13516,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "c9bb2feb-16bf-457c-b423-10d7d4c4e955")
-		(at 157.785 94.015)
+		(at -75.26 -3.91)
 		(descr "Through hole straight socket strip, 1x10, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x10 2.54mm single row")
 		(property "Reference" "J3"
@@ -13874,7 +13874,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ce99a29f-48d1-4c52-aa4b-27495e569939")
-		(at 126.545 120.525)
+		(at -106.5 22.6)
 		(descr "Through hole straight socket strip, 1x04, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x04 2.54mm single row")
 		(property "Reference" "J12"
@@ -14166,7 +14166,7 @@
 	(footprint "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d03d59f3-e8e9-4505-b947-f2e820df26ca")
-		(at 127.725 113.805)
+		(at -105.32 15.88)
 		(descr "JST XH series connector, B6B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J9"
@@ -14497,7 +14497,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "d390decd-421f-451a-ada4-4fb550a2b390")
-		(at 153.815 76.455)
+		(at -79.23 -21.47)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -14606,7 +14606,7 @@
 	(footprint "10000_custom_Library:KF301_4P_5.00mm"
 		(layer "F.Cu")
 		(uuid "d74bc0e8-9609-4758-a301-e82eb8efc46c")
-		(at 135 96.97)
+		(at -98.045 -0.955)
 		(property "Reference" "J15"
 			(at 0 -5.525225 0)
 			(unlocked yes)
@@ -14795,7 +14795,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "debd4b72-8c2d-486b-a61d-22803ccfa664")
-		(at 167.075 108.275)
+		(at -65.97 10.35)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C10"
@@ -14953,7 +14953,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "df1d8572-48e2-4f93-a4c4-1759db85ba93")
-		(at 144.905 76.725)
+		(at -88.14 -21.2)
 		(descr "Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x06 2.54mm single row")
 		(property "Reference" "J10"
@@ -15267,7 +15267,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D2.0mm"
 		(layer "F.Cu")
 		(uuid "f0f1dc3c-683b-4852-9002-48b500f89115")
-		(at 153.815 80.505)
+		(at -79.23 -17.42)
 		(descr "SMD pad as test Point, diameter 2.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
@@ -15376,7 +15376,7 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "f8f66d97-a0e0-41ea-b229-3fb2756a5cd4")
-		(at 148.125 124.795)
+		(at -84.92 26.87)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
@@ -15534,7 +15534,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "fa0519a7-bbd7-4492-85ea-15e71e7ded19")
-		(at 121.955 76.725)
+		(at 13.9 -25.98)
 		(descr "Through hole straight socket strip, 1x22, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x22 2.54mm single row")
 		(property "Reference" "J2"
@@ -16024,8 +16024,8 @@
 		)
 	)
 	(gr_rect
-		(start 178.653004 54.309012)
-		(end 268.653004 144.309012)
+		(start -45 -45)
+		(end 45 45)
 		(stroke
 			(width 0.05)
 			(type solid)
