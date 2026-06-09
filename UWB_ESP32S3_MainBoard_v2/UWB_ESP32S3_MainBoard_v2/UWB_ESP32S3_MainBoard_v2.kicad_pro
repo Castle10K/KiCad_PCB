@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,13 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.4,
+        0.8,
+        1.6
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +242,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -511,6 +528,61 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "name": "MOTOR_PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": "",
+        "via_diameter": 1.0,
+        "via_drill": 0.5
+      },
+      {
+        "clearance": 0.2,
+        "name": "PWR_3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "tuning_profile": "",
+        "via_diameter": 0.7,
+        "via_drill": 0.35
+      },
+      {
+        "clearance": 0.25,
+        "name": "PWR_5V0",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.4
+      },
+      {
+        "clearance": 0.2,
+        "name": "SIGNAL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.3,
+        "name": "VBAT_MAIN",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.2,
+        "tuning_profile": "",
+        "via_diameter": 1.0,
+        "via_drill": 0.5
       }
     ],
     "meta": {
@@ -518,7 +590,72 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PWR_3V3",
+        "pattern": "3V3_*"
+      },
+      {
+        "netclass": "PWR_3V3",
+        "pattern": "3V3"
+      },
+      {
+        "netclass": "PWR_5V0",
+        "pattern": "5V"
+      },
+      {
+        "netclass": "PWR_5V0",
+        "pattern": "5V0"
+      },
+      {
+        "netclass": "PWR_5V0",
+        "pattern": "5V_*"
+      },
+      {
+        "netclass": "VBAT_MAIN",
+        "pattern": "VBAT"
+      },
+      {
+        "netclass": "VBAT_MAIN",
+        "pattern": "BAT+"
+      },
+      {
+        "netclass": "VBAT_MAIN",
+        "pattern": "2S_IN"
+      },
+      {
+        "netclass": "MOTOR_PWR",
+        "pattern": "VM"
+      },
+      {
+        "netclass": "MOTOR_PWR",
+        "pattern": "MOTOR_*"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "UART_*"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "I2C_*"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "GPIO*"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "RST"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "BOOT"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "IO*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -648,7 +785,7 @@
         "uuid": "dedd1f80-c0bb-4081-8896-016b36cc75cf"
       }
     ],
-    "used_designators": "R1-3,J1-16,TP1-4,F1,C1-12,D1-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
