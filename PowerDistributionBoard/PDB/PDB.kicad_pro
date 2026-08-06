@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.25,
+          "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.4,
-          "thermal_relief_spoke_width": 0.4
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -211,10 +211,7 @@
       ],
       "track_widths": [
         0.0,
-        0.25,
-        0.4,
-        0.8,
-        1.6
+        0.3
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -246,6 +243,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -505,7 +506,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "UWB_ESP32S3_MainBoard_v2.kicad_pro",
+    "filename": "PDB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -530,59 +531,26 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3,
-        "name": "MOTOR_PWR",
+        "clearance": 0.8,
+        "name": "GND_POWER",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.5,
+        "track_width": 2.0,
         "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.5
+        "via_diameter": 1.2,
+        "via_drill": 0.6
       },
       {
-        "clearance": 0.2,
-        "name": "PWR_3V3",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "tuning_profile": "",
-        "via_diameter": 0.7,
-        "via_drill": 0.35
-      },
-      {
-        "clearance": 0.25,
-        "name": "PWR_5V0",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.8,
-        "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4
-      },
-      {
-        "clearance": 0.2,
-        "name": "SIGNAL",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
-        "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3
-      },
-      {
-        "clearance": 0.3,
-        "name": "VBAT_MAIN",
+        "clearance": 0.8,
+        "name": "POWER_MAIN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.2,
+        "track_width": 2.0,
         "tuning_profile": "",
-        "via_diameter": 1.0,
-        "via_drill": 0.5
+        "via_diameter": 1.2,
+        "via_drill": 0.6
       }
     ],
     "meta": {
@@ -592,48 +560,16 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "PWR_3V3",
-        "pattern": "*3V3*"
+        "netclass": "POWER_MAIN",
+        "pattern": "*BATT*"
       },
       {
-        "netclass": "PWR_5V0",
-        "pattern": "*5V*"
-      },
-      {
-        "netclass": "VBAT_MAIN",
+        "netclass": "POWER_MAIN",
         "pattern": "*VBAT*"
       },
       {
-        "netclass": "SIGNAL",
-        "pattern": "*BOOT"
-      },
-      {
-        "netclass": "SIGNAL",
-        "pattern": "GPIO*"
-      },
-      {
-        "netclass": "SIGNAL",
-        "pattern": "I2C_*"
-      },
-      {
-        "netclass": "SIGNAL",
-        "pattern": "*IO*"
-      },
-      {
-        "netclass": "MOTOR_PWR",
-        "pattern": "*MOTOR_*"
-      },
-      {
-        "netclass": "SIGNAL",
-        "pattern": "*RST"
-      },
-      {
-        "netclass": "SIGNAL",
-        "pattern": "*UART_*"
-      },
-      {
-        "netclass": "MOTOR_PWR",
-        "pattern": "VM"
+        "netclass": "GND_POWER",
+        "pattern": "*GND*"
       }
     ]
   },
@@ -641,7 +577,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "gerber_drill_file/",
+      "plot": "",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -760,17 +696,17 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "UWB_ESP32S3_MainBoard_v2.kicad_sch",
+        "filename": "PDB.kicad_sch",
         "name": "루트",
-        "uuid": "dedd1f80-c0bb-4081-8896-016b36cc75cf"
+        "uuid": "1ae661b4-95e5-4b2f-ab75-17f2ccf77ff5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R1,J1-5,F1,D1-2,C1-2",
     "variants": []
   },
   "sheets": [
     [
-      "dedd1f80-c0bb-4081-8896-016b36cc75cf",
+      "1ae661b4-95e5-4b2f-ab75-17f2ccf77ff5",
       "루트"
     ]
   ],

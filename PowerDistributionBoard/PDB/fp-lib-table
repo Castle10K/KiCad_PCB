@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "10000_custom_Library") (type "KiCad") (uri "C:/Users/USER/Desktop/_Project/1_Rescue_boat/PCB/Kicad_project/UWB_ESP32S3_MainBoard_v2/UWB_ESP32S3_MainBoard_v2/KiCad_Library/10000_custom_Library.pretty") (options "") (descr ""))
+)
